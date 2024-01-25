@@ -14,8 +14,9 @@
 @media screen and (max-width:600px) {
     #content {
 
-        height: 44rem;
+        height: 40rem;
         width: 100%;
+        margin-left: 10px;
         /* border: none; */
         /* box-shadow: none; */
         row-gap: 20px;

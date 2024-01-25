@@ -282,7 +282,7 @@
     transition: left 0.4s ease-in-out;
     /* z-index: 1; */
     display: block;
-    font-size: .8rem;
+    /* font-size: .8rem; */
     /* border: 1px solid red; */
     font-weight: bold;
 }
@@ -322,6 +322,10 @@
         /* visibility: hidden; */
     }
 
+    .overlay{
+        padding-top: 15px;
+    }
+
      
     .overlay a {
         height: 5rem;
@@ -329,15 +333,18 @@
         /* margin-top:-1rem ; */
         padding-right: .5rem;
         /* font-size: 1rem; */
-        width: 5rem;
+        width: 10rem;
+        /* padding-top:1rem ; */
         text-align: center;
         overflow: hidden;
-        border: 1px solid red;
     }
     
     .overlay:not(#main-open) {
-        width: 5rem;
+        width: 10rem;
         /* top: -2rem; */
+        font-size: 20px;
+        /* border: 1px solid red; */
+        overflow: hidden;
         margin-top: -.2rem;
         /* background-color: red; */
 
