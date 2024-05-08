@@ -1,352 +1,310 @@
 #Main {
-    height: 100vh;
-    /* flex: .5; */
-    width: 18%;
-    /* border: 1px solid red; */
-    background-color: rgb(235, 233, 233);
-    position: fixed;
-    top: 2.8rem;
-    /* overflow: scroll;/ */
-    transition: left 0.4s ease-in-out;
-
+  height: 100vh;
+  /* flex: .5; */
+  width: 18%;
+  /* border: 1px solid red; */
+  background-color: rgb(235, 233, 233);
+  position: fixed;
+  top: 2.8rem;
+  /* overflow: scroll;/ */
+  transition: left 0.4s ease-in-out;
 }
 
 #upperSidebar {
-    padding-top: 10px;
-    padding-left: 10px;
-    margin-right: 7px;
-    padding-bottom: 10px;
-
-
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-right: 7px;
+  padding-bottom: 10px;
 }
 
 #HomeIcon {
-
-    cursor: pointer;
-    display: flex;
-    font-size: .7em;
-    padding-left: .4rem;
-    padding-top: 4px;
-    padding-bottom: 2px;
-    align-items: center;
-    gap: .8rem;
-    border-radius: 5px;
-
+  cursor: pointer;
+  display: flex;
+  font-size: 0.7em;
+  padding-left: 0.4rem;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  align-items: center;
+  gap: 0.8rem;
+  border-radius: 5px;
 }
 
-#Homeicon{
- 
-    cursor: pointer;
-    display: flex;
-    font-size: .7em;
-    padding-left: 1rem;
-    /* padding-top: 4px; */
-    /* padding-bottom: 2px; */
-    align-items: center;
-    gap: .8rem;
-    border-radius: 5px;
-
+#Homeicon {
+  cursor: pointer;
+  display: flex;
+  font-size: 0.7em;
+  padding-left: 1rem;
+  /* padding-top: 4px; */
+  /* padding-bottom: 2px; */
+  align-items: center;
+  gap: 0.8rem;
+  border-radius: 5px;
 }
 
-#Homeicon:hover{
-    /* width: 90%; */
-    background-color: lightgray;
+#Homeicon:hover {
+  /* width: 90%; */
+  background-color: lightgray;
 }
 
 #HomeIcon:hover {
-    width: 90%;
-    background-color: lightgray;
+  width: 90%;
+  background-color: lightgray;
 }
 
 #shorts {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    font-size: .7em;
-    cursor: pointer;
-    border-radius: 5px;
-    gap: .8rem;
-    height: 1.8rem;
-
+  font-size: 0.7em;
+  cursor: pointer;
+  border-radius: 5px;
+  gap: 0.8rem;
+  height: 1.8rem;
 }
 
 #shorts:hover {
-    width: 90%;
-    background-color: lightgray;
-
+  width: 90%;
+  background-color: lightgray;
 }
 
 #shorts img {
-    height: 1.8rem;
-    cursor: pointer;
-    width: 2rem;
-
+  height: 1.8rem;
+  cursor: pointer;
+  width: 2rem;
 }
 
 #SubscriptionsSharpIcon {
-
-    cursor: pointer;
-    /* height: 10px; */
-    gap: .8rem;
-    /* width: 100%; */
-    font-size: .7em;
-    align-items: center;
-    padding: 4px;
-    /* border: 1px solid red; */
-    display: flex;
-    padding-left: 8px;
-    margin-right: 20px;
-    border-radius: 5px;
-    margin-top: 5px;
-
+  cursor: pointer;
+  /* height: 10px; */
+  gap: 0.8rem;
+  /* width: 100%; */
+  font-size: 0.7em;
+  align-items: center;
+  padding: 4px;
+  /* border: 1px solid red; */
+  display: flex;
+  padding-left: 8px;
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
 #SubscriptionsSharpIcon:hover {
-    background-color: lightgray;
-    width: 90%;
-
-
+  background-color: lightgray;
+  width: 90%;
 }
 
 #Breakline {
-    border: 1px solid rgb(175, 154, 154);
-
+  border: 1px solid rgb(175, 154, 154);
 }
 
 #KeyboardArrowRightSharpIcon {
-
-    /* border: 1px solid red; */
-    cursor: pointer;
-    display: flex;
-    font-size: .7em;
-    padding-left: 10px;
-    /* font-weight: bold; */
-    align-items: center;
-    border-radius: 5px;
-
-
+  /* border: 1px solid red; */
+  cursor: pointer;
+  display: flex;
+  font-size: 0.7em;
+  padding-left: 10px;
+  /* font-weight: bold; */
+  align-items: center;
+  border-radius: 5px;
 }
 
 #KeyboardArrowRightSharpIcon:hover {
-    background-color: lightgray;
-    width: 90%;
-
+  background-color: lightgray;
+  width: 90%;
 }
 
 #AccessTimeIcon {
-    display: flex;
-    font-size: .7em;
-    cursor: pointer;
-    align-items: center;
-    gap: .7rem;
-    border-radius: 5px;
-    padding: 5px;
-    margin-top: 5px;
-    /* border: 1px solid red; */
-
+  display: flex;
+  font-size: 0.7em;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.7rem;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+  /* border: 1px solid red; */
 }
 
 #AccessTimeIcon:hover {
-    background-color: lightgray;
-    width: 90%;
-
+  background-color: lightgray;
+  width: 90%;
 }
 
 #SlideshowSharpIcon {
-
-    cursor: pointer;
-    display: flex;
-    margin-top: 5px;
-    font-size: .7em;
-    padding: 5px;
-    align-items: center;
-    gap: .7rem;
-    /* border: 1px solid red; */
-    border-radius: 5px;
-
-
+  cursor: pointer;
+  display: flex;
+  margin-top: 5px;
+  font-size: 0.7em;
+  padding: 5px;
+  align-items: center;
+  gap: 0.7rem;
+  /* border: 1px solid red; */
+  border-radius: 5px;
 }
 
 #SlideshowSharpIcon:hover {
-    background-color: lightgray;
-    width: 90%;
-
+  background-color: lightgray;
+  width: 90%;
 }
 
 #RestoreSharpIcon {
-
-    cursor: pointer;
-    display: flex;
-    font-size: .7em;
-    padding: 5px;
-    margin-top: 5px;
-    /* border: 1px solid red; */
-    align-items: center;
-    gap: .7rem;
-    border-radius: 5px;
-
-
+  cursor: pointer;
+  display: flex;
+  font-size: 0.7em;
+  padding: 5px;
+  margin-top: 5px;
+  /* border: 1px solid red; */
+  align-items: center;
+  gap: 0.7rem;
+  border-radius: 5px;
 }
 
 #RestoreSharpIcon:hover {
-    background-color: lightgray;
-    width: 90%;
-
+  background-color: lightgray;
+  width: 90%;
 }
 
 #PortraitSharpIcon {
-    margin-top: 5px;
-    cursor: pointer;
-    display: flex;
-    font-size: .7em;
-    padding: 5px;
-    gap: .7rem;
-    /* border: 1px solid red; */
-    align-items: center;
-    border-radius: 5px;
-
+  margin-top: 5px;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.7em;
+  padding: 5px;
+  gap: 0.7rem;
+  /* border: 1px solid red; */
+  align-items: center;
+  border-radius: 5px;
 }
 
-
 #PortraitSharpIcon:hover {
-    background-color: lightgray;
-    width: 90%;
-
+  background-color: lightgray;
+  width: 90%;
 }
 
 #DownloadIcon {
-    margin-top: 5px;
-    cursor: pointer;
-    display: flex;
-    font-size: .7em;
-    padding: 5px;
-    gap: .7rem;
-    /* border: 1px solid red; */
-    align-items: center;
-    border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.7em;
+  padding: 5px;
+  gap: 0.7rem;
+  /* border: 1px solid red; */
+  align-items: center;
+  border-radius: 5px;
 }
 
 #PlaylistAddIcon {
-    margin-top: 5px;
-    cursor: pointer;
-    display: flex;
-    font-size: .7em;
-    padding: 5px;
-    gap: .7rem;
-    /* border: 1px solid red; */
-    align-items: center;
-    border-radius: 5px;
-
+  margin-top: 5px;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.7em;
+  padding: 5px;
+  gap: 0.7rem;
+  /* border: 1px solid red; */
+  align-items: center;
+  border-radius: 5px;
 }
 
 #PlaylistAddIcon:hover {
-    background-color: lightgray;
-    width: 90%;
+  background-color: lightgray;
+  width: 90%;
 }
 
-
-
 #DownloadIcon:hover {
-    background-color: lightgray;
-    width: 90%;
+  background-color: lightgray;
+  width: 90%;
 }
 
 #KeyboardArrowDownSharpIcon {
-    display: flex;
-    gap: .7rem;
-    cursor: pointer;
-    margin-top: 10px;
-    font-size: .7em;
-    align-items: center;
-    border-radius: 5px;
+  display: flex;
+  gap: 0.7rem;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 0.7em;
+  align-items: center;
+  border-radius: 5px;
 
-    /* margin-left: -8px; */
+  /* margin-left: -8px; */
 }
 
 #KeyboardArrowDownSharpIcon:hover {
-    background-color: lightgray;
-    width: 90%;
-
+  background-color: lightgray;
+  width: 90%;
 }
 
 .overlay {
-    position: fixed;
-    /* top: .3rem; */
+  position: fixed;
+  /* top: .3rem; */
 
-    height: 100vh;
-    background-color: rgb(235, 233, 233);
-    /* padding: .6rem; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: left 0.4s ease-in-out;
-    /* z-index: 1; */
-    display: block;
-    /* font-size: .8rem; */
-    /* border: 1px solid red; */
-    font-weight: bold;
+  height: 100vh;
+  background-color: rgb(235, 233, 233);
+  /* padding: .6rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: left 0.4s ease-in-out;
+  /* z-index: 1; */
+  display: block;
+  /* font-size: .8rem; */
+  /* border: 1px solid red; */
+  font-weight: bold;
 }
 
 .overlay:not(#main-open) {
-    width: 5.4rem;
-    /* margin-top: .rem; */
-    /* margin-top: 40px; */
-
+  width: 5.4rem;
+  /* margin-top: .rem; */
+  /* margin-top: 40px; */
 }
 
- 
 .overlay a {
-    width: 4.9rem;
-    /* border: 1px solid red; */
-    color: black;
-    overflow: hidden;
-    user-select: none;
-    text-decoration: none;
-    height: 4.5rem;
-    /* gap: 50px; */
-    flex-direction: column;
-    text-align: center;
-    padding-right: 1rem;
-    /* margin-left: -.2rem; */
-
+  width: 4.9rem;
+  /* border: 1px solid red; */
+  color: black;
+  overflow: hidden;
+  user-select: none;
+  text-decoration: none;
+  height: 4.5rem;
+  /* gap: 50px; */
+  flex-direction: column;
+  text-align: center;
+  padding-right: 1rem;
+  /* margin-left: -.2rem; */
 }
 
+@media screen and (max-width: 600px) {
+  #Main {
+    /* display: none; */
+    width: 35%;
+    top: 5rem;
 
-@media screen and (max-width:600px) {
-    #Main {
-        /* display: none; */
-        width: 35%;
-        top: 5rem;
-        
-        /* font-size: 30px; */
-        /* visibility: hidden; */
-    }
+    /* font-size: 30px; */
+    /* visibility: hidden; */
+  }
 
-    .overlay{
-        padding-top: 15px;
-    }
+  .overlay {
+    padding-top: 15px;
+  }
 
-     
-    .overlay a {
-        height: 5rem;
-        /* margin-right: .5rem; */
-        /* margin-top:-1rem ; */
-        padding-right: .5rem;
-        /* font-size: 1rem; */
-        width: 10rem;
-        /* padding-top:1rem ; */
-        text-align: center;
-        overflow: hidden;
-    }
-    
-    .overlay:not(#main-open) {
-        width: 10rem;
-        /* top: -2rem; */
-        font-size: 20px;
-        /* border: 1px solid red; */
-        overflow: hidden;
-        margin-top: -.2rem;
-        /* background-color: red; */
+  .overlay a {
+    height: 5rem;
+    /* margin-right: .5rem; */
+    /* margin-top:-1rem ; */
+    padding-right: 0.5rem;
+    /* font-size: 1rem; */
+    width: 10rem;
+    /* padding-top:1rem ; */
+    text-align: center;
+    overflow: hidden;
+  }
 
-    }
+  .overlay:not(#main-open) {
+    width: 10rem;
+    /* top: -2rem; */
+    font-size: 20px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    margin-top: -0.2rem;
+    /* background-color: red; */
+  }
 }

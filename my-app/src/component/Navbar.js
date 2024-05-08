@@ -10,10 +10,9 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 export default function Navbar({ setInput, toggleMenu }) {
   const [transcript, setTranscript] = useState();
   const [listening, setListening] = useState(false);
-  // let [display, setDisplay] = useState(true);
-  // let [slide, setSlide] = useState(0);
+ 
 
-  let recognition = null;
+  let recognition = null;  
 
   const startListening = () => {
     recognition = new (window.webkitSpeechRecognition || window.SpeechRecognition)();
